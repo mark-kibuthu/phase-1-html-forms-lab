@@ -42,7 +42,24 @@
 
 
       <!-- Add an input with the type set to 'submit' -->
-
+      <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+      
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Telephone (optional)">
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+      
+        <label for="checkbox">I agree to the terms and conditions:</label>
+        <input type="checkbox" id="checkbox">
+      
+        <input type="submit" value="Submit">
+      </form>
     
   </body>
 </html>
